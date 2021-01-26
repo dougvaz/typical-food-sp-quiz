@@ -30,13 +30,13 @@ export default function Home() {
     <QuizBackground backgroundImage={db.bg}>
       <Head>
         <title>{db.title}</title>
-        <meta name="title" content="{db.title}"/>
+        <meta name="title" content="${db.title}"/>
         <meta name="description" content="Teste os seus conhecimentos sobre a história das comidas típicas de São Paulo."/>
         <meta property="og:type" content="website"/>
         <meta property="og:url" content="https://typical-food-sp-quiz.vercel.app/"/>
-        <meta property="og:title" content="{db.title}}"/>
+        <meta property="og:title" content="${db.title}"/>
         <meta property="og:description" content="Teste os seus conhecimentos sobre a história das comidas típicas de São Paulo."/>
-        <meta property="og:image" content="{db.bg}"/>
+        <meta property="og:image" content="${db.bg}"/>
       </Head>
       <QuizContainer>
         <QuizLogo />
